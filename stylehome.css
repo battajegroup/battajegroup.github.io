@@ -1,0 +1,167 @@
+html {
+	height: 100%;
+	width: 100%;
+	background-color: blue;
+}
+
+body {
+	background-color: yellow;
+	font-family: arial, verdana, sans-serif;
+	text-align: center;
+	height: 95%;
+	width: 95%;
+}
+
+#headerbar {
+	float: left;
+	background-color: #CCCCCC;
+	height: 9%;
+	width: 100%;
+	display: inline;
+	margin-bottom: 0.4%;
+	font-color: white;
+}
+
+#leftlogoheader {
+	background-image: url("bg01.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	float: left;
+	background-color: gray;
+	height: 100%;
+	width: 49.7%;
+	display: inline;
+	margin-bottom: 0.4%;
+	margin-right: 0.4%;
+	display: inline;
+	font-color: white;
+}
+
+#rightlogoheader {
+	background-image: url("bg01.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	float: right;
+	background-color: pink;
+	height: 100%;
+	width: 49.7%;
+	display: inline;
+	margin-bottom: 0.4%;
+	font-color: white;
+}
+
+#midbar {
+	float: left;
+	background-color: #CCCCCC;
+	height: 75%;
+	width: 100%;
+	margin-bottom: 0.3%;
+	display: inline;
+	font-color: white;
+}
+
+#leftmidbar {
+	float: left;
+	height: 100%;
+	width: 49.7%;
+	background-color: pink;
+}
+
+#leftmidbartop {
+	height: 49.9%;
+	width: 100%;
+	background-color: green;
+	margin-bottom: 0.5%;
+}
+
+#leftmidbarbottom {
+	height: 49.9%;
+	width: 100%;
+	background-color: red;
+}
+
+#rightmidbar {
+	float: right;
+	height: 100%;
+	width: 49.7%;
+	background-color: pink;
+}
+
+#rightmidbartop {
+	height: 49.9%;
+	width: 100%;
+	background-color: red;
+	margin-bottom: 0.5%;
+}
+
+#rightmidbarbottom {
+	height: 49.9%;
+	width: 100%;
+	background-color: green;
+}
+
+#footerbar {
+	float: left;
+	background-color: #CCCCCC;
+	height: 5%;
+	width: 100%;
+	display: inline;
+	font-color: white;
+}
+
+#menubar {
+	float: left;
+	background-color: #CCCCCC;
+	height: 8%;
+	width: 100%;
+	margin-bottom: 0.3%;
+	font-color: white;
+}
+
+#menubarcopy {
+	float: left;
+	background-color: fuchsia;
+	height: 100%;
+	width: 100%;
+	font-color: white;
+}
+
+ul.ulmenu {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 95%;
+	background-color: green;
+}
+
+li.limenu {
+	float: left;
+	background-color: red;
+	height: 100%;
+	width: 10%;
+	margin: 0;
+	padding: 0;
+}
+
+ul.ulmenu a {
+	height: 100%;
+	color: black;
+	text-align: center;
+	padding:10%;
+	margin: 0%;
+	text-decoration: none;
+	line-height: 100%;
+	font-size: 100%;
+	font-style: normal;
+	/*  	background-image: url(line.png);  */
+	/*  	background-repeat: no-repeat;  */
+	/*  	background-position:right;  */
+	display: block;
+}
+
+ul.ulmenu a:hover {
+	color: silver;
+	background-color: purple;
+	height: 55%
+}
