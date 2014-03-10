@@ -4,15 +4,14 @@
 <script type="text/javascript" src="soapclient.js"></script>
 <script type="text/javascript">
 	
-	var url = "http://battajegroup.github.io/testWebService.xml";
+	var url = "http://50.44.147.217/TestWebProject/services/TestWebServicePort";
 	
 	function HelloTo()
 	{	
 		try{
 		var pl = new SOAPClientParameters();
-		alert("success-01");
-		pl.add("name", "Bharath");
-		SOAPClient.invoke(url, "HelloTo", pl, true, HelloTo_callBack);
+		pl.add("arg0", "BharathRaoB");
+		SOAPClient.invoke(url, "returnAnswer", pl, true, HelloTo_callBack);
 		   } catch(ex){
 				alert("Exception is" + ex);
 			}

@@ -164,9 +164,9 @@ SOAPClient._sendSoapRequest = function(url, method, parameters, async, callback,
 				"xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\" " +
 				"xmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\">" +
 				"<soap:Body>" +
-				"<" + method + " xmlns=\"" + ns + "\">" +
+				"<bat:" + method + " xmlns:bat=\"" + ns + "\">" +
 				parameters.toXml() +
-				"</" + method + "></soap:Body></soap:Envelope>";
+				"</bat:" + method + "></soap:Body></soap:Envelope>";
 	// send request
 	var xmlHttp = SOAPClient._getXmlHttp();
 	if (SOAPClient.userName && SOAPClient.password){
@@ -177,7 +177,7 @@ SOAPClient._sendSoapRequest = function(url, method, parameters, async, callback,
 	else
 		xmlHttp.open("POST", url, async);
 	var soapaction = ((ns.lastIndexOf("/") != ns.length - 1) ? ns + "/" : ns) + method;
-	xmlHttp.setRequestHeader("SOAPAction", soapaction);
+	xmlHttp.setRequestHeader("SOAPAction", "");
 	xmlHttp.setRequestHeader("Content-Type", "text/xml; charset=utf-8");
 	if(async) 
 	{
