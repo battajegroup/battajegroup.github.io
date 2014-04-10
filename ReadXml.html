@@ -1,11 +1,20 @@
 <?xml version="1.0" encoding="ISO-8859-1" ?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+
 <title>Insert title here</title>
-<script type="text/javascript">
-	function HelloTo() {
+
+</head>
+<body>
+
+	<h1>My Web Page</h1>
+	
+	<form id="form1">
+	<div id="">
+	
+	<script language="javascript" type="text/javascript">
+	
 		var xmlhttp;
 		if (window.XMLHttpRequest) {
 			xmlhttp = new XMLHttpRequest();
@@ -16,10 +25,10 @@
 		xmlhttp.onreadystatechange = function() {
 
 			if (xmlhttp.readyState == 4) {
-				alert('xmlhttp.responseText');
+				//alert('xmlhttp.responseText');
 			}
 		}
-		var filePath = "http://battajegroup.com/testfile.xml";
+		var filePath = "http://localhost:8080/battajegroup/testfile.xml";
 		xmlhttp.open("GET", filePath, false);
 		xmlhttp.setRequestHeader("Content-Disposition", "inline;filename='"
 				+ filePath + "''");
@@ -27,23 +36,134 @@
 		xmlhttp.send(null);
 		// alert(xmlhttp.responseText);
 		var myXml = xmlhttp.responseXML;
-		prs = myXml.getElementsByTagName("person");
+		document.write('<table border="2">');
+		prs = myXml.getElementsByTagName("player");
+		document.write('<tr>');
+		document.write('<td>');
+		document.write('name');		
+		document.write('</td>');
+		
+		
+		document.write('<td>');
+		document.write('score');		
+		document.write('</td>');
+		
+		document.write('<td>');
+		document.write('ball');		
+		document.write('</td>');
+		
+		document.write('<td>');
+		document.write('four');		
+		document.write('</td>');
+		
+		document.write('<td>');
+		document.write('six');		
+		document.write('</td>');
+		
+		document.write('<td>');
+		document.write('over');		
+		document.write('</td>');
+		
+		document.write('<td>');
+		document.write('maiden');		
+		document.write('</td>');
+		
+		document.write('<td>');
+		document.write('wicket');		
+		document.write('</td>');
+		
+		document.write('<td>');
+		document.write('wide');		
+		document.write('</td>');
+		
+		document.write('<td>');
+		document.write('nb');		
+		document.write('</td>');
+		
+		
+		document.write('</tr>');
 		for (i = 0; i < prs.length; i++) {
-			alert(prs[i].getElementsByTagName("name")[0].childNodes[0].nodeValue);
-			alert(prs[i].getElementsByTagName("number")[0].childNodes[0].nodeValue);
+
+			document.write('<tr>');
+			document.write('<td>');
+			document
+					.write(prs[i].getElementsByTagName("name")[0].childNodes[0].nodeValue);
+			document.write('</td>');
+			document.write('<td>');
+			document
+					.write(prs[i].getElementsByTagName("score")[0].childNodes[0].nodeValue);
+			
+			document.write('</td>');
+			document.write('<td>');
+			document
+					.write(prs[i].getElementsByTagName("ball")[0].childNodes[0].nodeValue);
+			
+			document.write('</td>');
+			
+			
+			document.write('<td>');
+			document
+					.write(prs[i].getElementsByTagName("four")[0].childNodes[0].nodeValue);
+			
+			document.write('</td>');
+			
+			document.write('<td>');
+			document
+					.write(prs[i].getElementsByTagName("six")[0].childNodes[0].nodeValue);
+			
+			document.write('</td>');
+			
+			document.write('<td>');
+			document
+					.write(prs[i].getElementsByTagName("over")[0].childNodes[0].nodeValue);
+			
+			document.write('</td>');
+			
+			document.write('<td>');
+			document
+					.write(prs[i].getElementsByTagName("maiden")[0].childNodes[0].nodeValue);
+			
+			document.write('</td>');
+			
+			document.write('<td>');
+			document
+					.write(prs[i].getElementsByTagName("wicket")[0].childNodes[0].nodeValue);
+			
+			document.write('</td>');
+			
+			document.write('<td>');
+			document
+					.write(prs[i].getElementsByTagName("wide")[0].childNodes[0].nodeValue);
+			
+			document.write('</td>');
+			
+			document.write('<td>');
+			document
+					.write(prs[i].getElementsByTagName("nb")[0].childNodes[0].nodeValue);
+			
+			document.write('</td>');
+			
+			
+			
+			
+			
+			
+			
+			
+			document.write('</tr>');
 
 		}
+		document.write('</table>');
 
-	}
+	
 </script>
-</head>
-<body>
+</div>
 
-	<h1>My Web Page</h1>
+</form>
 
-	<p id="demo">A Paragraph</p>
+	<!-- <p id="demo">A Paragraph</p>
 
-	<button type="button" onclick="HelloTo()">Try it</button>
+	<button type="button" onclick="HelloTo()">Try it</button> -->
 
 
 </body>
