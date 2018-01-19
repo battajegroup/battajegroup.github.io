@@ -4,7 +4,7 @@ title:  "My First Blog"
 date:   2018-01-17 15:00:46 -0500
 categories: jekyll update
 ---
-This is my first blog post. I am testing `jekyll` tool to create my own blogging web site. This tool is to create a static web site and github support this tool out of the box. So I am very excited to learn this new tool.
+This is my second blog post. I am testing `jekyll` tool to create my own blogging web site. This tool is to create a static web site and github support this tool out of the box. So I am very excited to learn this new tool.
 
 Jekyll also offers powerful support for code snippets and this looks promising to techical related
 blogs.
