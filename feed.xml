@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-02-24T13:57:50-05:00</updated><id>http://localhost:4000/</id><title type="html">battajegroup blogging system</title><subtitle>Just a testing with the jekyll tool for static static creation.</subtitle><entry><title type="html">My First Blog</title><link href="http://localhost:4000/jekyll/update/2018/01/17/my-first-blog.html" rel="alternate" type="text/html" title="My First Blog" /><published>2018-01-17T15:00:46-05:00</published><updated>2018-01-17T15:00:46-05:00</updated><id>http://localhost:4000/jekyll/update/2018/01/17/my-first-blog</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2018/01/17/my-first-blog.html">&lt;p&gt;This is my first blog post. I am testing &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll&lt;/code&gt; tool to create my own blogging web site. This tool is to create a static web site and github support this tool out of the box. So I am very excited to learn this new tool.&lt;/p&gt;
+
+&lt;p&gt;Jekyll also offers powerful support for code snippets and this looks promising to techical related
+blogs.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;I will be creating a new web site called &lt;a href=&quot;www.criclivescorer.com&quot;&gt;battajegroup.com&lt;/a&gt; to test the jekyll and the
+github integration. Please stay tuned.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https:criclivescorer.com&quot;&gt;https:criclivescorer.com&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">This is my first blog post. I am testing jekyll tool to create my own blogging web site. This tool is to create a static web site and github support this tool out of the box. So I am very excited to learn this new tool.</summary></entry></feed>
